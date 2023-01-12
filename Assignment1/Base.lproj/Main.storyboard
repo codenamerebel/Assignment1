@@ -16,20 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Application Image Set" translatesAutoresizingMaskIntoConstraints="NO" id="Pm3-Ho-LBJ">
-                                <rect key="frame" x="76" y="166" width="240" height="295"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Application Image Set" translatesAutoresizingMaskIntoConstraints="NO" id="Pm3-Ho-LBJ">
+                                <rect key="frame" x="50" y="120" width="293" height="363"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C1-10P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c79-yP-UbQ">
-                                <rect key="frame" x="119" y="530" width="154" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C1-10P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c79-yP-UbQ">
+                                <rect key="frame" x="119.66666666666669" y="558" width="154" height="55"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="46"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pm3-Ho-LBJ" secondAttribute="trailing" constant="50" id="2xM-3P-0mz"/>
+                            <constraint firstItem="c79-yP-UbQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Iq-jz-49V"/>
+                            <constraint firstItem="c79-yP-UbQ" firstAttribute="top" secondItem="Pm3-Ho-LBJ" secondAttribute="bottom" constant="75" id="AMA-4n-JEa"/>
+                            <constraint firstItem="Pm3-Ho-LBJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="MEx-r0-UR5"/>
+                            <constraint firstItem="Pm3-Ho-LBJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bpV-v4-ce6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pm3-Ho-LBJ" secondAttribute="bottom" constant="335" id="fsK-GE-aRM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -39,8 +45,8 @@
     </scenes>
     <resources>
         <image name="Application Image Set" width="122.33333587646484" height="199"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
